@@ -1,0 +1,3 @@
+# gitignore starts with local
+local*
+node_modules
