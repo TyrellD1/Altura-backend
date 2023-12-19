@@ -1,6 +1,4 @@
 import { Router, Response, Request } from 'express';
-import mongoose from 'mongoose';
-import { IUser } from '../../@types/user';
 import { User } from '../schemas/user';
 
 const router = Router();
