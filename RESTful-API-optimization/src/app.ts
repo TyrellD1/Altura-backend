@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
 import userRoutes from './routes/user.routes';
 import rateLimiter from './middleware/rateLimiter';
 
